@@ -36,9 +36,6 @@ During static analysis with **IDA Pro**, the application's main window procedure
 
 ## 📄 Decompiled Code (IDA Output)
 
-<details>
-<summary>Click to expand</summary>
-
 ```c
 
 LRESULT __fastcall sub_140001A40(HWND hWnd, UINT a2, WPARAM a3, LPARAM a4)
