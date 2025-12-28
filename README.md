@@ -36,6 +36,8 @@ During static analysis with **IDA Pro**, the application's main window procedure
 
 ## 📄 Decompiled Code (IDA Output)
 
+<img width="1920" height="1080" alt="{5F245E5C-211D-48DB-ACC2-512053D44ECA}" src="https://github.com/user-attachments/assets/e6539c9b-fce2-4485-b572-a87c8c1fb2b9" />
+
 ```c
 
 LRESULT __fastcall sub_140001A40(HWND hWnd, UINT a2, WPARAM a3, LPARAM a4)
@@ -203,10 +205,21 @@ unsigned int GenerateKey(const char* name)
 
 ```
 
+
+KeyGen.exe :
+
+<img width="547" height="333" alt="{60BA6D9F-73A4-43DB-8093-BB5A2E9BA20B}" src="https://github.com/user-attachments/assets/5c9f2689-d343-4a2d-ae44-e857a1a52b2e" />
+
+
+
 ✅ Result
 Using this KeyGen implementation:
 
 A valid Key can be generated for any Name
+
+
+<img width="496" height="307" alt="{BDCE4202-F959-4FF4-92A4-AB4766CEAAB3}" src="https://github.com/user-attachments/assets/71c9369e-ba1b-4fdc-aa67-76b2bc650b82" />
+
 
 The target application accepts the generated key
 
