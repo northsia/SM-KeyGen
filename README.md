@@ -1,12 +1,12 @@
-# 🔑 SM-KeyGen
+# - SM-KeyGen
 
-**Simple Key Generator — Educational Reverse Engineering Project**
+**Simple Key Generator Educational Reverse Engineering Project**
 
 Crackme file : https://crackmes.one/crackme/691f53d32d267f28f69b7f62
 
 ---
 
-## 📌 About
+## - About
 
 **SM-KeyGen** is an educational reverse engineering project that demonstrates how a key verification algorithm can be analyzed, understood, and reconstructed from a compiled binary using **IDA Pro**.
 
@@ -15,14 +15,14 @@ This repository shows the full process of:
 - Understanding the key-check logic
 - Rewriting the algorithm as a working KeyGen
 
-> ⚠️ **IMPORTANT**
+> - **IMPORTANT**
 >
 > This project is provided **for educational purposes only**.  
 > It is intended for learning reverse engineering techniques and must **not** be used for piracy or illegal activities.
 
 ---
 
-## 🧠 Reverse Engineering Overview
+## - Reverse Engineering Overview
 
 During static analysis with **IDA Pro**, the application's main window procedure was identified as the location responsible for validating the user-provided **Name** and **Key**.
 
@@ -148,7 +148,7 @@ LRESULT __fastcall sub_140001A40(HWND hWnd, UINT a2, WPARAM a3, LPARAM a4)
 
 ```
 
-⚙️ Key Verification Algorithm
+- Key Verification Algorithm
 After analyzing the decompiled code, the verification logic can be summarized as follows:
 
 Iterates over each character of the input name
@@ -216,7 +216,7 @@ KeyGen.exe :
 
 
 
-✅ Result
+- Result
 Using this KeyGen implementation:
 
 A valid Key can be generated for any Name
@@ -230,4 +230,4 @@ The target application accepts the generated key
 The following message is displayed:
 
 Access Granted!
-🎉 The application is successfully cracked (for educational purposes).
+- The application is successfully cracked (for educational purposes).
