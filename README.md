@@ -38,6 +38,8 @@ During static analysis with **IDA Pro**, the application's main window procedure
 
 <img width="1920" height="1080" alt="{5F245E5C-211D-48DB-ACC2-512053D44ECA}" src="https://github.com/user-attachments/assets/e6539c9b-fce2-4485-b572-a87c8c1fb2b9" />
 
+
+code :
 ```c
 
 LRESULT __fastcall sub_140001A40(HWND hWnd, UINT a2, WPARAM a3, LPARAM a4)
